@@ -155,7 +155,7 @@ function addTodoToStorage(newTodo){
 
          const alert = document.createElement("div"); // divimizi oluşturduk
 
-         alert.className = `alert alert-${type}`; //dolar işaretine bak ?
+         alert.className = `alert alert-${type}`; 
          alert.textContent = message;
 
          firstCardBody.appendChild(alert);
